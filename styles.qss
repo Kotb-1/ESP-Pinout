@@ -1,0 +1,116 @@
+/* ESP32 Pinout GUI Styles */
+
+/* Info Box Scroll Area */
+QScrollArea#info_scroll {
+    border: 3px solid #2c3e50;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* Placeholder Label */
+QLabel#placeholder_label {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    color: #95a5a6;
+    padding: 10px;
+}
+
+/* Title Label */
+QLabel#title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Legend Frame */
+QFrame#legend_frame {
+    background-color: #ffffff;
+    border: 3px solid #2c3e50;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Legend Title */
+QLabel#legend_title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #2c3e50;
+    border: none;
+    background-color: transparent;
+}
+
+/* Category Button */
+QPushButton.category_btn {
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    text-align: left;
+    padding: 2px;
+}
+
+QPushButton.category_btn:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+    border: 2px solid #3498db;
+}
+
+/* Category Label */
+QLabel.category_label {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12pt;
+    color: #2c3e50;
+    border: none;
+    background-color: transparent;
+}
+
+/* Pin Info - Name Label */
+QLabel.pin_name {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Pin Info - Type/Function Headers */
+QLabel.section_header {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 10px 0 5px 0;
+}
+
+/* Pin Info - Note Label */
+QLabel.note_label {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 10pt;
+    color: #856404;
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+/* Category Info - Header */
+QLabel.category_header {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Arrow Label */
+QLabel.arrow {
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: transparent;
+}
